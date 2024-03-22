@@ -2,9 +2,7 @@
   "name": "superalgos",
   "version": "0.0.11",
   "description": "Superalgos",
-  "author": {
-    "name": "Luis-Fernando-Molina"
-  },
+  "author": "Luis-Fernando-Molina",
   "dependencies": {
     "@octokit/rest": "^18.10.0",
     "ccxt": "^1.56.41",
@@ -25,5 +23,11 @@
     "util": "^0.12.4",
     "web3": "^1.5.2",
     "ws": "^8.2.1"
-  }
+  },
+  "main": "desktop.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
 }
